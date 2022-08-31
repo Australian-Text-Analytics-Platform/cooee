@@ -4,7 +4,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-08-31T10:21:53+00:00",
+            "datePublished": "2022-08-31T10:33:14+00:00",
             "hasPart": [
                 {
                     "@id": "cooee.ipynb"
@@ -37,14 +37,14 @@
                     "@id": "https://purl.archive.org/textcommons/profile#Notebook"
                 }
             ],
-            "description": "",
+            "description": "A sample notebook for the cooee data",
             "encodingFormat": "application/x-ipynb+json",
             "input": [
                 {
-                    "@id": ""
+                    "@id": "arcp://name,cooee-corpus/corpus/root"
                 }
             ],
-            "name": "cooee.ipynb"
+            "name": "cooee notebook"
         },
         {
             "@id": "#0000-0003-0879-9251",
