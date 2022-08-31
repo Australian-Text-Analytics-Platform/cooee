@@ -2,3 +2,7 @@ requests==2.26
 python-dotenv>=0.19.2
 ldaca @ git+https://github.com/Language-Research-Technology/ldaca-py.git@v0.0.5
 rocrate~=0.7.0
+textacy==0.11.0
+spacy>=3.0.0,<4.0.0
+
+sumgram
