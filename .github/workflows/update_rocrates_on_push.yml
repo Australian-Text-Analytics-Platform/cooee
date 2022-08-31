@@ -1,0 +1,39 @@
+name: Update ro-crates 
+on:
+  push:
+    branches: 
+      - main
+      - master
+    paths:
+      - '**.ipynb'
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+          fetch-depth: 0 
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install rocrate
+
+      - name: Rebuild crates
+        run: |
+          python scripts/crate_maker.py . metadata.json 
+
+      - name: Commit files
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add .
+          git commit -m 'Auto update crates'
+
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
