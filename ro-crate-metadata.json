@@ -1,0 +1,55 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2022-08-31T10:21:53+00:00",
+            "hasPart": [
+                {
+                    "@id": "cooee.ipynb"
+                }
+            ]
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "cooee.ipynb",
+            "@type": [
+                "File",
+                "SoftwareApplication"
+            ],
+            "author": [
+                {
+                    "@id": "#0000-0003-0879-9251"
+                }
+            ],
+            "conformsTo": [
+                {
+                    "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+                }
+            ],
+            "description": "",
+            "encodingFormat": "application/x-ipynb+json",
+            "input": [
+                {
+                    "@id": ""
+                }
+            ],
+            "name": "cooee.ipynb"
+        },
+        {
+            "@id": "#0000-0003-0879-9251",
+            "@type": "Person",
+            "name": "Foley, Ben"
+        }
+    ]
+}
