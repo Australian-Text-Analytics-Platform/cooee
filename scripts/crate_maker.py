@@ -95,7 +95,7 @@ def add_notebook(crate: ROCrate, notebook: Path, metadata: Path) -> None:
         "description": notebook_metadata["description"],
         "input": wrap_list_with_id(notebook_metadata["input"]),
         "encodingFormat": "application/x-ipynb+json",
-        "conformsTo": wrap_list_with_id("https://purl.archive.org/textcommons/profile#Notebook")
+        "conformsTo": wrap_list_with_id("https://purl.archive.org/language-data-commons/profile#Notebook")
     }
     file = crate.add_file(notebook, properties=properties)
 
