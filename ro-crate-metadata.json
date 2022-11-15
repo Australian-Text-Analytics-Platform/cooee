@@ -4,7 +4,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-08-31T21:35:55+00:00",
+            "datePublished": "2022-11-15T22:33:12+00:00",
             "hasPart": [
                 {
                     "@id": "cooee.ipynb"
@@ -34,7 +34,7 @@
             ],
             "conformsTo": [
                 {
-                    "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+                    "@id": "https://purl.archive.org/language-data-commons/profile#Notebook"
                 }
             ],
             "description": "A sample notebook for the cooee data",
