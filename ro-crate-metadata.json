@@ -41,7 +41,7 @@
             "encodingFormat": "application/x-ipynb+json",
             "input": [
                 {
-                    "@id": "arcp://name,cooee-corpus/corpus/root"
+                    "@id": "arcp://name,corpus-of-oz-early-english"
                 }
             ],
             "name": "cooee notebook"
