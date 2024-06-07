@@ -4,7 +4,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2023-08-04T05:44:01+00:00",
+            "datePublished": "2024-06-07T05:26:48+00:00",
             "hasPart": [
                 {
                     "@id": "cooee.ipynb"
@@ -34,17 +34,17 @@
             ],
             "conformsTo": [
                 {
-                    "@id": "https://purl.archive.org/language-data-commons/profile#Notebook"
+                    "@id": "https://w3id.org/ldac/profile#Notebook"
                 }
             ],
             "description": "A sample notebook for the cooee data",
             "encodingFormat": "application/x-ipynb+json",
             "input": [
                 {
-                    "@id": "arcp://name,corpus-of-oz-early-english"
+                    "@id": "arcp://name,doi10.26180%2F23961609"
                 }
             ],
-            "name": "cooee notebook"
+            "name": "A COrpus of Oz Early English (COOEE) notebook"
         },
         {
             "@id": "#0000-0003-0879-9251",
