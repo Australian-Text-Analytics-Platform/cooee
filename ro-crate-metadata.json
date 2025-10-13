@@ -4,7 +4,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2025-10-10T04:38:10+00:00",
+            "datePublished": "2025-10-13T06:22:09+00:00",
             "hasPart": [
                 {
                     "@id": "cooee.ipynb"
@@ -43,7 +43,7 @@
                     "@id": "https://w3id.org/ldac/profile#Notebook"
                 }
             ],
-            "description": "A topic modeling notebook for the cooee collection",
+            "description": "",
             "encodingFormat": "application/x-ipynb+json",
             "input": [
                 {
