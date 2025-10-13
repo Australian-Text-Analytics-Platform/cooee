@@ -1,0 +1,19 @@
+[project]
+name = "cooee"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gensim>=4.3.3",
+    "matplotlib>=3.10.6",
+    "nltk>=3.9.1",
+    "numpy>=1.26.4",
+    "pandas>=2.3.2",
+    "pyldavis>=3.4.1",
+    "rocrate-tabular",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv.sources]
+rocrate-tabular = { git = "https://github.com/Sydney-Informatics-Hub/rocrate-tabular.git" }

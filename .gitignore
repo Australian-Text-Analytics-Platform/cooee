@@ -130,3 +130,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Corpus download directory
+cooee/*
+
+# RO-Crate tabulator database
+cooee.db
+
+.DS_Store
