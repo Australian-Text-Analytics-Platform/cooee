@@ -43,14 +43,14 @@
                     "@id": "https://w3id.org/ldac/profile#Notebook"
                 }
             ],
-            "description": "",
+            "description": "A topic modeling notebook for the cooee collection",
             "encodingFormat": "application/x-ipynb+json",
             "input": [
                 {
-                    "@id": ""
+                    "@id": "arcp://name,hdl10.26180~23961609"
                 }
             ],
-            "name": "cooee.ipynb"
+            "name": "COOEE Notebook"
         },
         {
             "@id": "0009-0006-2241-3377",
